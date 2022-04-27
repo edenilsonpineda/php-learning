@@ -31,7 +31,7 @@
                                 $firstName  = (String) 'Bill';
                                 $lastName   = (String) 'Gates';
                                 
-                                echo 'Resultado de concatenar dos cadenas de texto: '.$firstName . ' ' . $lastName . '<br>';
+                                echo '<h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Resultado de concatenar dos cadenas de texto: <u>'.$firstName . '</u> ' . $lastName . '<h3>';
                             ?>
                         </div>
                     </div>
