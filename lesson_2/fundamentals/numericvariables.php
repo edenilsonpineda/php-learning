@@ -27,7 +27,7 @@
 
     $sum = $a + $b;
     
-    echo 'El sultado de la sumatoria de ambas variables flotantes es: ' . $sum;
+    echo 'El resultado de la sumatoria de ambas variables flotantes es: ' . $sum;
 ?>
 
 </body>
