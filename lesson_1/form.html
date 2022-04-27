@@ -1,0 +1,71 @@
+<!-- Form XHTML -->
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+    <head>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+        <title>Lección 1.1 - Formulario en XHTML</title>
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/uikit@3.13.10/dist/css/uikit.min.css' type='text/css' media='screen' charset='utf-8'/>
+        <style>
+            *{
+                font-family: "San Francisco", Arial, Helvetica, sans-serif !important;    
+            }
+
+            @font-face {
+                font-family: "San Francisco";
+                font-weight: 400;
+                src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+            }
+        </style>
+    </head>
+    <body>
+        <div class="uk-container uk-container-large uk-margin-top uk-padding">
+            <h1>Formulario de Ejemplo.</h1>
+            <form id="form" name="form" action="" method="get" enctype="multipart/form-data">
+                <div class="uk-margin">
+                    <label for="name" class="uk-form-label" >Nombre: </label>
+                    <input type="text" name="name" id="name" placeholder="" class="uk-input" required>
+                </div>
+
+                <div class="uk-margin">
+                    <label for="lastName" class="uk-form-label">Apellido: </label>
+                    <input type="text" name="lastName" id="lastName" placeholder="" class="uk-input" required>
+                </div>
+
+                <div class="uk-margin">
+                    <label for="description" class="uk-form-label">Breve Descripci&oacute;n: </label>
+                    <textarea name="description" id="description" cols="30" rows="3" class="uk-textarea" wrap="virtual" accesskey="b"></textarea>
+                </div>
+
+                <div class="uk-margin">
+                    <label for="adult" class="uk-form-label"><u>M</u>ayor de Edad: </label>
+                </div>
+                <div class="uk-margin">
+                    <label><input type="checkbox" class="uk-checkbox" name="adult" id="adult" value="Si" accesskey="m" checked required> S&iacute;</label>
+                </div>
+
+                <div class="uk-form-label">G&eacute;nero: </div>
+                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                    <label><input class="uk-radio" type="radio" name="genre" id="m" checked="" required> Masculino</label>
+                    <label><input class="uk-radio" type="radio" name="genre" id="f"> Femenino</label>
+                    <label><input class="uk-radio" type="radio" name="genre" id="o"> Otro</label>
+                </div>
+
+                <div class="uk-form-label">Ingresos: </div>
+                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                    <label><input class="uk-radio" type="radio" name="income" checked=""> Menos de $400</label>
+                    <label><input class="uk-radio" type="radio" name="income"> $400 - $1000</label>
+                    <label><input class="uk-radio" type="radio" name="income"> M&aacute;s de $1000</label>
+                </div>
+
+                <div class="uk-margin">
+                    <input type="submit" value="Guardar" name="send" id="send" class="uk-button uk-button-primary" >
+                    <input type="reset" value="Limpiar" name="clear" id="clear" class="uk-button uk-button-secondary" >
+                </div>
+            </form>
+        
+        </div>
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.10/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.10/dist/js/uikit-icons.min.js"></script>
+    </body>
+</html>
