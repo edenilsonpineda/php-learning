@@ -58,6 +58,39 @@
                 </div>
 
                 <div class="uk-margin">
+                    <label for="interests" class="uk-form-label"><u>E</u>studios de Inter&eacute;s: </label>
+                    <select name="interests" id="interests" accesskey="i" class="uk-select">
+                        <option value="1">Econom&iacute;a</option>
+                        <option value="2">Filosof&iacute;a</option>
+                        <option value="3">Ingenier&iacute;a</option>
+                        <option value="4">Tecnolog&iacute;a</option>
+                        <option value="5">Comunicaciones</option>
+                        <option value="6">Otros</option>
+                    </select>
+                </div>
+
+                <div class="uk-margin">
+                    <label for="hobbies" class="uk-form-label"><u>P</u>asatiempos: </label>
+                    <select name="hobbies" id="hobbies" accesskey="p" class="uk-select">
+                        <option value="1">Chat</option>
+                        <option value="2">Juegos</option>
+                        <option value="3">Arte</option>
+                        <option value="4">Cine</option>
+                        <option value="5">Poes&iacute;a</option>
+                        <option value="6">Otros</option>
+                    </select>
+                </div>
+
+                <div class="uk-margin">
+                    <div class="uk-form-label"><u>C</u>argar hoja de vida: </label>
+                    <br>
+                    <div class="test-upload" uk-form-custom>
+                        <input type="file" single>
+                        <button class="uk-button" id="uploadFile" tabindex="-1">Subir archivo</button>
+                    </div>
+                </div>
+
+                <div class="uk-margin">
                     <input type="submit" value="Guardar" name="send" id="send" class="uk-button uk-button-primary" >
                     <input type="reset" value="Limpiar" name="clear" id="clear" class="uk-button uk-button-secondary" >
                 </div>
