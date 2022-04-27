@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
+    <title>Lesson 2 - Fundamentals</title>
+</head>
+<body>
+
 <?php
 // Comentario de una sola linea.
 
@@ -56,3 +67,8 @@ echo "<br><b>La suma de (a+b) es igual a: " . $sum;
 $substract = $b - $c;
 echo "<br><b>La diferencia de (a-b) es igual a: </b>" . $substract;
 ?>
+    
+</body>
+
+<script src="../resources/js/bootstrap.bundle.min.js"></script>
+</html>
