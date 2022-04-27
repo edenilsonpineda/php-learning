@@ -19,9 +19,9 @@
                         <table class="table table-striped table-sm">
                             <thead>
                                 <tr>
-                                    <th scope="col">p</th>
-                                    <th scope="col">q</th>
-                                    <th scope="col">P ^ Q</th>
+                                    <th>p</th>
+                                    <th>q</th>
+                                    <th>P ^ Q</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -32,9 +32,9 @@
                                  * @see https://github.com/edenilsonpineda
                                  */
 
-                                $p = (boolean) True;
-                                $q = (boolean) False;
-                                $intersection = False;
+                                $p = (boolean) TRUE;
+                                $q = (boolean) FALSE;
+                                $intersection = FALSE;
                                 echo '<tr>';
                                 echo '<td>' . $p . '</td>';
                                 echo '<td>' . $q . '</td>';
