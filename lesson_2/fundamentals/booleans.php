@@ -25,7 +25,7 @@
                     $p = (bool) TRUE;
                     $q = (bool) FALSE;
                     echo 'Valor verdadero: '.$p.'<br>';
-                    echo 'Valor falso: '.$q.'<br>';
+                    echo 'Valor falso: '. ($q ? 'true' : '0') .'<br>';
                     ?>
                 </div>
             </div>
