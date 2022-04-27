@@ -34,11 +34,11 @@
 
                                 $p = (boolean) TRUE;
                                 $q = (boolean) FALSE;
-                                $intersection = FALSE;
+                                $intersection = (boolean) FALSE;
                                 echo '<tr>';
-                                echo '<td>' . $p . '</td>';
-                                echo '<td>' . $q . '</td>';
-                                echo '<td>' . $intersection . '</td>';
+                                echo '<td>'.$p.'</td>';
+                                echo '<td>'.$q.'</td>';
+                                echo '<td>'.$intersection.'</td>';
                                 echo '</tr>';
                                 ?>
                             </tbody>
