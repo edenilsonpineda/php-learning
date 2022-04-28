@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../resources/css/bootstrap.min.css">
-    <title>Lesson 2 - Fundamentals</title>
+    <title>Lesson 2 - Fundamentals (Floats) </title>
 </head>
 <body>
 
