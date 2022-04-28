@@ -3,7 +3,7 @@
 // ADDSLASHES.
 // Output: O\'Reilly?
 $str = "O'Reilly?";
-eval("echo '" . addslashes($str) . "';");
+echo addslashes($str);
 
 
 
