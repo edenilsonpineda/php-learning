@@ -38,9 +38,9 @@ echo $new; // &lt;a href=&#039;test&#039;&gt;Test&lt;/a&gt;
 
 // MD5
 // Calcular el hash md5 de una cadena
-$str = 'apple';
+$str2 = 'apple';
 
-if (md5($str) === '1f3870be274f6c49b3e31a0c6728957f') {
+if (md5($str2) === '1f3870be274f6c49b3e31a0c6728957f') {
     echo "Te gustaria una manzana verde o roja?";
 }
 ?>
