@@ -16,7 +16,7 @@ $directory = "pineda:*:1023:1000::/home/pineda:/bin/sh";
 $data   = explode(":", $directory);
 
 echo $data[0]; // foo
-echo $data[6]; // '/home/pineda'
+echo $data[5]; // '/home/pineda'
 
 
 // htmlspecialchars
@@ -33,6 +33,13 @@ $str2 = 'apple';
 if (md5($str2) === '1f3870be274f6c49b3e31a0c6728957f') {
     echo "Te gustaria una manzana verde o roja?";
 }
+
+
+// Variables variables
+$var    = 'hola';
+$$var   = 'mundo';
+
+echo "$var ${$var}";
 
 // fprintf 
 // Escribe una cadena con formato en una secuencia o stream.
