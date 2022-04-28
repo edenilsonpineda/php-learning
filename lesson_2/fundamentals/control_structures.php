@@ -16,7 +16,7 @@
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                 <!-- Estructuras de control -->
                 <div class="col">
-                    <div class="card overflow-hidden text-white bg-dark rounded-5 shadow-lg">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-primary rounded-5 shadow-lg">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <?php
 
@@ -49,7 +49,7 @@
 
                 <!-- Switch Case -->
                 <div class="col">
-                    <div class="card overflow-hidden text-white bg-dark rounded-5 shadow-lg">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-primary rounded-5 shadow-lg">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <?php
 
@@ -96,7 +96,7 @@
 
                 <!-- foreach -->
                 <div class="col">
-                    <div class="card overflow-hidden text-white bg-dark rounded-5 shadow-lg">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-primary rounded-5 shadow-lg">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <?php
 
@@ -113,7 +113,7 @@
 
                 <!-- For -->
                 <div class="col">
-                    <div class="card overflow-hidden text-white bg-dark rounded-5 shadow-lg">
+                    <div class="card card-cover h-100  overflow-hidden text-white bg-dark rounded-5 shadow-lg">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <?php
 
@@ -135,7 +135,7 @@
 
                 <!-- While -->
                 <div class="col">
-                    <div class="card overflow-hidden text-white bg-dark rounded-5 shadow-lg">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <?php
 
