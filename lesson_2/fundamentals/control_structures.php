@@ -94,6 +94,23 @@
                     </div>
                 </div>
 
+                <!-- foreach -->
+                <div class="col">
+                    <div class="card overflow-hidden text-white bg-dark rounded-5 shadow-lg">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <?php
+
+                            $infoArray  = array('Carlos','Ximena','Natalia','Joel');
+
+                            foreach ($infoArray as $name) {
+                                print '<p> El nombre es: <b>' . $name . '</b></p></br>';
+                            }
+
+                            ?>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- For -->
                 <div class="col">
                     <div class="card overflow-hidden text-white bg-dark rounded-5 shadow-lg">
@@ -139,22 +156,7 @@
                     </div>
                 </div>
 
-                <!-- foreach -->
-                <div class="col">
-                    <div class="card overflow-hidden text-white bg-dark rounded-5 shadow-lg">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <?php
-
-                            $infoArray  = array('Carlos','Ximena','Natalia','Joel');
-
-                            foreach ($infoArray as $name) {
-                                print '<p> El nombre es: <b>' . $name . '</b></p></br>';
-                            }
-
-                            ?>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </main>
