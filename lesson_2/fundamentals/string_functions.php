@@ -19,16 +19,6 @@ echo $data[0]; // foo
 echo $data[6]; // '/home/pineda'
 
 
-// fprintf 
-// Escribe una cadena con formato en una secuencia o stream.
-
-if(!($fp = fopen('date.txt', 'w'))) {
-    return;
-}
-
-fprintf($fp, "%04d-%02d-%02d", $year, $month, $day);
-
-
 // htmlspecialchars
 // Convertir caracteres especiales en entidades HTML
 
@@ -43,4 +33,14 @@ $str2 = 'apple';
 if (md5($str2) === '1f3870be274f6c49b3e31a0c6728957f') {
     echo "Te gustaria una manzana verde o roja?";
 }
+
+// fprintf 
+// Escribe una cadena con formato en una secuencia o stream.
+
+if(!($fp = fopen('date.txt', 'w'))) {
+    return;
+}
+
+fprintf($fp, "%04d-%02d-%02d", $year, $month, $day);
+
 ?>
