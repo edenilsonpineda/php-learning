@@ -105,7 +105,7 @@
 
                             echo '<p>N&uacute;meros impares del 1 - 100!</p> <br>';
 
-                            for ($index=1; $index <= $limit; $i++) { 
+                            for ($index=1; $index <= $limit; $index++) { 
                                 if($index % 2):
                                     echo 'N&uacute;mero impar: ' . $index . '</br>';
                                 endif;
