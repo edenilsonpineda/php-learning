@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/sidebar.css">
+    <title>Index</title>
+    <style>
+        *{
+            font-family: "Calibri", "San Francisco", Arial, Helvetica, sans-serif !important;    
+        }
+
+        @font-face {
+            font-family: "San Francisco";
+            font-weight: 400;
+            src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="d-flex flex-column flex-shrink-0 p-3 shadow" style="width: 280px;">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-black fw-bold text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <span class="fs-4">PHP Learning</span>
+            </a>
+            <hr>
+            <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#x22-collapse" aria-expanded="true">
+                        IMPORTANTE
+                    </button>
+                    <div class="collapse show" id="x22-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li>
+                                <p class="text-xl-center">
+                                    <span class="badge bg-danger">NOTA!</span> <br>
+                                    Instalar <b>WAMP</b> (Windows), <b>LAMP</b> (Linux), <b>MAMP</b> (MacOS) para poder visualizar los archivos PHP.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mb-1">
+                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#home-collapse" aria-expanded="true">
+                        Gu&iacute;a 1
+                    </button>
+                    <div class="collapse show" id="home-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="lesson_1/index.html" class="link-dark rounded">Introducci&oacute;n a XHTML</a></li>
+                            <li><a href="lesson_1/form.html" class="link-dark rounded">Formulario usando XHTML</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mb-1">
+                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#lesson2-collapse" aria-expanded="true">
+                        Gu&iacute;a 2
+                    </button>
+                    <div class="collapse show" id="lesson2-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="lesson_2/helloworld/helloworld.php" class="link-dark rounded">¡Hola, Mundo!</a></li>
+                            <li><a href="lesson_2/fundamentals/arrays.php" class="link-dark rounded">Arrays</a></li>
+                            <li><a href="lesson_2/fundamentals/booleans.php" class="link-dark rounded">Booleanos</a></li>
+                            <li><a href="lesson_2/fundamentals/control_structures.php" class="link-dark rounded">Estructuras de Control</a></li>
+                            <li><a href="lesson_2/fundamentals/functions.php" class="link-dark rounded">Funciones</a></li>
+                            <li><a href="lesson_2/fundamentals/string_functions.php" class="link-dark rounded">Funciones de Strings</a></li>
+                            <li><a href="lesson_2/fundamentals/operators.php" class="link-dark rounded">Operadores</a></li>
+                            <li><a href="lesson_2/fundamentals/strings.php" class="link-dark rounded">Strings</a></li>
+                            <li><a href="lesson_2/fundamentals/typeofvariables.php" class="link-dark rounded">Tipos de variables</a></li>
+                            <li><a href="lesson_2/fundamentals/numericvariables.php" class="link-dark rounded">Variables Numericas</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-9 ms-sm-auto col-lg-10 px-md-4 pt-3 pb-2 mb-3">
+            <center>
+                <h2>PHP Learning</h2>
+                <p>Ejemplos pr&aacute;cticos utilizando PHP.</p>
+            </center>
+        </div>
+    </main>
+</body>
+<script src="resources/js/bootstrap.bundle.min.js"></script>
+<script src="resources/js/sidebar.js"></script>
+</html>
